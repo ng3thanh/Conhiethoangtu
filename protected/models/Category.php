@@ -24,4 +24,10 @@ class Category extends CategoryBase
 	{
 		return parent::model($className);
 	}
+	
+	static function getAllCategory()
+	{
+		$data = Category::model()->findAll();
+		return $data;
+	}
 }
