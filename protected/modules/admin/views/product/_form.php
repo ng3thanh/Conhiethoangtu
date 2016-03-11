@@ -13,6 +13,9 @@
 	// There is a call to performAjaxValidation() commented in generated controller code.
 	// See class documentation of CActiveForm for details on this.
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array(
+		'enctype' => 'multipart/form-data'
+	),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -27,7 +30,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cat_id'); ?>
-		<?php echo $form->dropDownList($model,'cat_id',$data,array('empty'=>'Chọn mục lục của sản phẩm')); ?>
+		<?php echo $form->dropDownList($model,'cat_id',$catdata,array('empty'=>'Chọn mục lục của sản phẩm')); ?>
 		<?php echo $form->error($model,'cat_id'); ?>
 	</div>
 
@@ -39,31 +42,47 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'image'); ?>
-		<?php echo $form->textField($model,'image',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->fileField($model,'image'); ?>
 		<?php echo $form->error($model,'image'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'image2'); ?>
-		<?php echo $form->textField($model,'image2',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->fileField($model,'image2'); ?>
 		<?php echo $form->error($model,'image2'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'image3'); ?>
-		<?php echo $form->textField($model,'image3',array('size'=>60,'maxlength'=>255)); ?>
+		<?php echo $form->fileField($model,'image3'); ?>
 		<?php echo $form->error($model,'image3'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'description'); ?>
-		<?php echo $form->textArea($model,'description',array('rows'=>6, 'cols'=>50)); ?>
+		<?php 
+		$this->widget('application.extensions.ckeditor.CKEditor', array(
+			'model'=>$model,
+			'attribute'=>'description',
+			'language'=>'vi',
+			'theme'=>'default',
+			'editorTemplate'=>'full',
+		));
+ 		?>
 		<?php echo $form->error($model,'description'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'content'); ?>
-		<?php echo $form->textArea($model,'content',array('rows'=>6, 'cols'=>50)); ?>
+		<?php 
+		$this->widget('application.extensions.ckeditor.CKEditor', array(
+			'model'=>$model,
+			'attribute'=>'content',
+			'language'=>'vi',
+			'theme'=>'default',
+			'editorTemplate'=>'full',
+		));
+ 		?>
 		<?php echo $form->error($model,'content'); ?>
 	</div>
 
@@ -87,7 +106,19 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'datecreate'); ?>
-		<?php echo $form->textField($model,'datecreate'); ?>
+		<?php 
+			$this->widget('zii.widgets.jui.CJuiDatePicker', array(
+    			'model' => $model,
+    			'attribute' => 'datecreate',
+				'options'=>array(
+					'dateFormat' => 'dd - mm - yy'
+				),
+    			'htmlOptions' => array(
+        			'size' => '10',         // textField size
+        			'maxlength' => '10',    // textField maxlength
+    			),
+			));
+		?>
 		<?php echo $form->error($model,'datecreate'); ?>
 	</div>
 
