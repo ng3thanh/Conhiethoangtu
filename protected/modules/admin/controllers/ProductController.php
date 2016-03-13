@@ -66,7 +66,6 @@ class ProductController extends Controller
 		
 		$category = Category::getAllCategory();
 		$catdata = CHtml::listData($category,"cat_id","cat_name");
-		
 		$path = Yii::getPathOfAlias('webroot').'/uploads';
 		$tempTime = time();
 		
@@ -76,11 +75,10 @@ class ProductController extends Controller
 		if(isset($_POST['Product']))
 		{
 			$model->attributes=$_POST['Product'];
-			
 			$image = CUploadedFile::getInstance($model,'image');
-			$imageName = 'name'.'-'.$image.'-'.$tempTime->name;
+			$imageName = 'name'.'-'.$image->name;
 			$image->saveAs($path.'/'.$imageName);
-			$model->image = $imageName;
+			$model->image = '/uploads/'.$imageName;
 			
 			
 			if($model->save()){

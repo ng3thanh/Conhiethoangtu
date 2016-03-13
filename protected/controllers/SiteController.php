@@ -29,7 +29,8 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
-		$this->render('index');
+		$data = Product::getProductHomepage();
+		$this->render('index', array('data' => $data));
 	}
 
 	/**
@@ -105,5 +106,9 @@ class SiteController extends Controller
 	{
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
+	}
+	
+	public function actionAbout(){
+		$this->render("about");
 	}
 }

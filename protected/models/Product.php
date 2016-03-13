@@ -32,4 +32,29 @@ class Product extends ProductBase
 	{
 		return parent::model($className);
 	}
+	
+	static function getProductHomepage(){
+		$criteria = new CDbCriteria;
+		$criteria->limit = 12;
+		$data = Product::model()->findAll($criteria);
+		return($data);
+	}
+	/**
+	static function getNumberProduct($id){
+		$criteria = new CDbCriteria;
+		$criteria->select = "*";
+		$criteria->condition = "cat_id = $id";
+		$data = Product::model()->count($criteria);
+		return $data;	
+	}
+	*/
+	static function getProductByID($id,$page = 0,$apage = 0){
+		$criteria = new CDbCriteria;
+		$criteria->select = "*";
+		$criteria->condition = "cat_id = $id";
+		$criteria->offset = ($page * $apage);
+		$criteria->limit = $apage;
+		$data = Product::model()->findAll($criteria);
+		return($data);
+	}
 }
