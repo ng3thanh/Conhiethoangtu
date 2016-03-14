@@ -1,4 +1,4 @@
- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
@@ -6,9 +6,10 @@
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/local-css.css"/>
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style.css">
-  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
-  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
-  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
+  <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-1.12.1.min.js"></script>
+  <script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
   <title>Cơ nhiệt Hoàng Tú</title>
 </head>
 
@@ -193,7 +194,7 @@
 	<footer class="footer-distributed row">
     <div class="row col-lg-12">
 		<div class="footer-left">
-			<img src="images/logo_1.png" width="" height="70" alt="Công ty cơ nhiệt Hoàng Tú"/>
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/logo_1.png" width="" height="70" alt="Công ty cơ nhiệt Hoàng Tú"/>
 		</div>
 		<div class="footer-center">
         	<div class="footer-company-about"><span>Thông tin liên hệ</span></div>

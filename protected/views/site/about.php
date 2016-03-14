@@ -1,12 +1,6 @@
-<?php
-/* @var $this SiteController */
-
-$this->pageTitle=Yii::app()->name . ' - About';
-$this->breadcrumbs=array(
-	'About',
-);
-?>
-<h1>About</h1>
-
-<p>This is a "static" page. You may change the content of this page
-by updating the file <code><?php echo __FILE__; ?></code>.</p>
+<div class="panel-heading" id="left-panel-heading">
+	<span class="glyphicon glyphicon-info-sign">&nbsp;</span>GIỚI THIỆU
+</div>
+<div class="panel-body" id="bodyInfo">
+	
+</div>

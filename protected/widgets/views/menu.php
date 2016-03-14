@@ -40,8 +40,18 @@
         <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/contact">
         	<span class="glyphicon glyphicon-link">&nbsp;</span>Liên hệ
         </a></li>
-        <li><a href="giohang.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>Giỏ hàng </a></li>
-        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/login"><span class="glyphicon glyphicon-user"></span></a></li>
+        <li><a href="giohang.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>Đặt hàng </a></li>
+        <li>
+        	<?php if(Yii::app()->user->isGuest){ ?>
+        		<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/login">
+            		<span class="glyphicon glyphicon-user"></span>
+            	</a>
+            <?php }else{ ?>
+            	<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/logout">
+            		<span class="glyphicon glyphicon-log-out"></span>
+            	</a>
+            <?php } ?>
+        </li>
       </ul>
     </div>
   </div>

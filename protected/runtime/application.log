@@ -5945,3 +5945,1674 @@ Stack trace:
 REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
 HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
 ---
+2016/03/14 02:07:59 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:01:01 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:01:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:04:16 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:04:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:06:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:06:42 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:08:53 [error] [php] Use of undefined constant form - assumed 'form' (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\site\login.php:18)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(99): SiteController->render()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/login?
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\site\login.php (18)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (99)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/14 03:09:38 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:10:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:11:20 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:11:20 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:13:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:13:13 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:14:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?
+---
+2016/03/14 03:14:10 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?LoginForm%5Busername%5D=&LoginForm%5Bpassword%5D=&yt0=Login
+---
+2016/03/14 03:14:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?LoginForm%5Busername%5D=admin&LoginForm%5Bpassword%5D=admin&yt0=Login
+---
+2016/03/14 03:15:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?LoginForm%5Busername%5D=admin&LoginForm%5Bpassword%5D=admin&yt0=Login
+---
+2016/03/14 03:17:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login?LoginForm%5Busername%5D=admin&LoginForm%5Bpassword%5D=admin&yt0=Login
+---
+2016/03/14 03:17:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:17:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/8c70bc59/contents.css". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/8c70bc59...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/assets/8c70bc59/contents.css
+---
+2016/03/14 03:17:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 03:33:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 03:48:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:48:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:52:32 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:52:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/8c70bc59/contents.css". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/8c70bc59...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/assets/8c70bc59/contents.css
+---
+2016/03/14 03:52:47 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 03:52:49 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:52:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 03:53:00 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "assets/8c70bc59/contents.css". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('assets/8c70bc59...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/assets/8c70bc59/contents.css
+---
+2016/03/14 04:03:16 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 04:03:16 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 04:06:50 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 04:06:54 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 04:07:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 04:07:26 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/index
+---
+2016/03/14 04:07:27 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 04:09:41 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 04:09:45 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 04:09:58 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/login
+---
+2016/03/14 04:11:16 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
+---
+2016/03/14 04:17:34 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
+---
+2016/03/14 04:21:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
+---
+2016/03/14 04:21:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
+---
+2016/03/14 04:21:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:21:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:38:02 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/14 04:38:03 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/2
+---
+2016/03/14 04:38:04 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/3
+---
+2016/03/14 04:38:05 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/4
+---
+2016/03/14 04:38:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/5
+---
+2016/03/14 04:38:08 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/6
+---
+2016/03/14 04:41:10 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/6
+---
+2016/03/14 04:41:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/14 04:41:15 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:15 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:16 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:18 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:18 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:20 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:41:20 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:24 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:27 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:27 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:58 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:42:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:43:00 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:04 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:04 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:36 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:36 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:40 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 04:44:40 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:12:48 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/2
+---
+2016/03/14 05:12:50 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/14 05:12:52 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:12:52 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:16:31 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/giohang.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:32:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:32:13 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:32:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:32:56 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:37:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:37:59 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:39:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:39:25 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:41:48 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/giohang.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:41:50 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 05:41:55 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "images". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('images')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('images')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/images/log...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/contact
+---
+2016/03/14 08:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:36:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:41:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:41:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:41:23 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:42:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:42:07 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:43:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:43:39 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/1
+---
+2016/03/14 08:43:47 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:44:31 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/3
+---
+2016/03/14 08:44:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:44:39 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:44:42 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/images/logo_1.png
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/2
+---
+2016/03/14 08:44:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:45:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:46:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:46:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:49:49 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:52:09 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:53:44 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:54:43 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 08:56:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:11:05 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:12:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:13:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:15:53 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:31:33 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:34:45 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:34:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:35:23 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:36:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:36:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:37:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:37:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:40:36 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:43:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:45:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:46:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:47:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:47:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:48:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:49:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:50:16 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:50:29 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:52:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:53:04 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:53:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:53:31 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:54:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:55:13 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 09:55:14 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "css/bootstrap.min.css.map". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('css/bootstrap.m...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/css/bootstrap.min.css.map
+---
+2016/03/14 10:02:09 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/12
+---
+2016/03/14 10:03:14 [error] [php] Invalid argument supplied for foreach() (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\site\about.php:7)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): SiteController->renderPartial()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(112): SiteController->render()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionAbout()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/about
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\site\about.php (7)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (112)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)

@@ -425,3 +425,37 @@
 #detailContent{
 	
 }
+
+/** Login */
+
+#logIn{
+}
+
+.form_dn{
+	margin:10px 10px 10px 10px;
+}
+#form-group{
+	margin-bottom:10px;	
+}
+#headingLogin{
+	background-image:url(../images/ZenBG-1.png);
+	color:white;
+	font-size:15px;
+	font-weight:700;
+}
+
+#buttonLogin{
+	text-align:center;
+	margin-top:25px;
+}
+
+#btnSubmit{
+	margin-right:30px;	
+}
+
+/** Giới thiệu */
+
+#bodyInfo{
+	background:#FFF;
+	border:thin solid #f0ad4e;
+}

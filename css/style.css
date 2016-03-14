@@ -133,3 +133,14 @@
   text-indent:-154px;
   letter-spacing:10px;
 }
+
+/** Đặt hàng */
+
+#myModalLabel{
+	color:#f0ad4e;
+}
+
+#buttonModal{
+	background-color:#f0ad4e;
+	color:#FFF;
+}
