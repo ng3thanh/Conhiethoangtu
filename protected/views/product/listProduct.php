@@ -1,5 +1,5 @@
 <div class="panel-heading" id="left-panel-heading">
-	<span class="glyphicon glyphicon-wrench">&nbsp;</span>SẢN PHẨM LẮP ĐẶT
+	<span class="glyphicon glyphicon-wrench">&nbsp;</span>SẢN PHẨM
 </div>
 <div class="panel-body row">
 

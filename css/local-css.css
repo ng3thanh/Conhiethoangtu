@@ -459,3 +459,27 @@
 	background:#FFF;
 	border:thin solid #f0ad4e;
 }
+
+#imgInfo{
+		
+}
+#threadTable{
+	background-color:#feaa34;
+}
+
+#companyInfo{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+#companyInfo p span{
+	color:#feaa34;
+}
+
+.orange{
+	background-color:#fff;	
+}
+.light_orange{
+	
+	background-color:#E0E0E0;	
+}
