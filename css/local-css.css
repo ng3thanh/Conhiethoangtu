@@ -53,6 +53,7 @@
 /* Body of website */
 #middle{
 	margin-top:1%;
+	
 }
 /* Product */
 #product{
@@ -86,9 +87,21 @@
 	margin-top:-20px;
 }
 
+/*left*/
+#productIndex{
+	box-sizing:border-box;	
+}
+
+#left-panel-heading{
+	background-image:url(../images/ZenBG-1.png);
+	font-weight:bold;
+	color:#f0f0f0;
+	font:"Courier New", Courier, monospace;
+}
 
 /*Right*/
-
+#allInfoRight{
+}
 #right-panel-heading{
 	background-image:url(../images/ZenBG-1.png);
 	font-weight:bold;
@@ -96,11 +109,15 @@
 	font:"Courier New", Courier, monospace;
 }
 
+#rightInfo{
+	float:left;	
+}
 /* Search form */
 
 #search-box{
 	height:50px;
-	margin-bottom:10px;
+	margin-top:3px;
+	margin-bottom:5px;
 }
 
 .stylish-input-group .input-group-addon{
@@ -121,7 +138,6 @@
 
 /*Hr tags*/
 #hr{
-	
 }
 #hrstyle {
 	border-top: 1px dashed #8c8b8b; 
@@ -364,4 +380,48 @@
 		margin-left: 0;
 	}
 
+}
+
+/** Chi tiết sản phẩm */
+
+#detailAll{
+}
+
+#nameProduct{
+	text-transform:capitalize;	
+}
+#detailDescription{
+	color:#f0ad4e;
+}
+
+#detailPromotion{
+	border:thin solid #ee8b21;
+	border-radius:4px 4px 4px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:30px;
+	background:#f0ad4e;
+	color:#FFF;
+}
+
+#detailSetup{
+	margin-left:-15px;
+	margin-top:20px;
+}
+
+#detailSetup button{
+	border-style:hidden;	
+}
+
+#detailUnder{
+	margin-top:10px;	
+}
+
+#detailHeader{
+	font-size:15px;
+	font-weight:bold;
+}
+
+#detailContent{
+	
 }

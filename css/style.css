@@ -1,6 +1,11 @@
 
 /*****Delete this*****/
-.archive-pages{	
+#paging{
+
+}
+
+.archive-pages{
+	margin-left:120px;
 }
 .archive-pages li a:hover{
   color:#000;
@@ -14,29 +19,15 @@
 }
 .archive-pages li.selected{
   color:white;
-  padding:5px;
-  width:18px;
   line-height:20px;
-  background: rgb(53,121,214); 
-  background: -moz-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%, rgba(53,121,214,1) 91%, rgba(27,85,157,1) 100%); 
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(53,121,214,1)), color-stop(91%,rgba(53,121,214,1)), color-stop(100%,rgba(27,85,157,1))); 
-  background: -webkit-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: -o-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: -ms-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: radial-gradient(ellipse at center,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3579d6', endColorstr='#1b559d',GradientType=1 ); 
+  background:#ffac59;
 }
+
 .archive-pages li.selected:hover{
   cursor:default;
-  background: rgb(53,121,214); 
-  background: -moz-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%, rgba(53,121,214,1) 91%, rgba(27,85,157,1) 100%); 
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(53,121,214,1)), color-stop(91%,rgba(53,121,214,1)), color-stop(100%,rgba(27,85,157,1))); 
-  background: -webkit-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: -o-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: -ms-radial-gradient(center, ellipse cover,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%); 
-  background: radial-gradient(ellipse at center,  rgba(53,121,214,1) 0%,rgba(53,121,214,1) 91%,rgba(27,85,157,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3579d6', endColorstr='#1b559d',GradientType=1 );
+  background:#ffac59;
 }
+
 .archive-pages li:hover{
   background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(196,196,196,1) 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(196,196,196,1))); 
@@ -139,6 +130,6 @@
   letter-spacing:10px;
 }
 .archive-pages .last a{
-    text-indent:-154px;
+  text-indent:-154px;
   letter-spacing:10px;
 }

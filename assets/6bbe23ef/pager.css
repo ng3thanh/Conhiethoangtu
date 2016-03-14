@@ -6,14 +6,12 @@
  * @copyright 2008-2010 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  * @since 1.0
- */
+
 
 ul.yiiPager
 {
-	font-size:11px;
+	font-size:13px;
 	border:0;
-	margin:0;
-	padding:0;
 	line-height:100%;
 	display:inline;
 }
@@ -56,11 +54,10 @@ ul.yiiPager .hidden a
 	color:#888888;
 }
 
-/**
- * Hide first and last buttons by default.
- */
+
 ul.yiiPager .first,
 ul.yiiPager .last
 {
 	display:none;
 }
+*/

@@ -23,24 +23,26 @@
     
     <div class="row">	
 		<div class="row" id="middle">
-        	<div class="col-lg-9 panel-default">
+        	<div class="col-lg-9 panel-default" id="productIndex">
             	<?php echo $content ?>
             </div>
-            <div class="col-lg-3">
-            	<div class="row" id="search-box">
-                	<div class="col-lg-12">
-            			<div id="imaginary_container"> 
-                			<div class="input-group stylish-input-group">
-                    			<input type="text" class="form-control"  placeholder="Search" >
-                    			<span class="input-group-addon">
-                        			<button type="submit">
-                            			<span class="glyphicon glyphicon-search"></span>
-                        			</button>  
-                    			</span>
-                			</div>
-            			</div>
-        			</div>
+            <div class="col-lg-3" id="rightInfo">
+            	<div class="row">
+            	<div class="col-lg-12" id="search-box">
+            		<div id="imaginary_container"> 
+                		<div class="input-group stylish-input-group">
+                    		<input type="text" class="form-control"  placeholder="Search" >
+                    		<span class="input-group-addon">
+                        		<button type="submit">
+                            		<span class="glyphicon glyphicon-search"></span>
+                        		</button>  
+                    		</span>
+                		</div>
+            		</div>
                 </div>
+                </div>
+                <div class="row" id="allInfoRight">
+                <div class="col-lg-12">
       			<div class="panel panel-default">
         			<div class="panel-heading" id="right-panel-heading">
                     	<span class="glyphicon glyphicon-th-list">&nbsp;</span>DANH MỤC SẢN PHẨM
@@ -49,6 +51,8 @@
                     	<span class="glyphicon glyphicon-star-empty">&nbsp;</span> List danh mục
                 	</div>
       			</div>
+                </div>
+                <div class="col-lg-12">
                 <div class="panel panel-default">
         			<div class="panel-heading" id="right-panel-heading">
                     	<span class="glyphicon glyphicon-phone-alt">&nbsp;</span>HỖ TRỢ KHÁCH HÀNG
@@ -58,6 +62,8 @@
                         <p><span class="glyphicon glyphicon-envelope">&nbsp;</span>hoangdinhluanlohoi@gmail.com</p>
                 	</div>
       			</div>
+                </div>
+                <div class="col-lg-12">
                 <div class="panel panel-default">
         			<div class="panel-heading" id="right-panel-heading">
                     	<span class="glyphicon glyphicon-fire">&nbsp;</span>SẢN PHẨM MỚI
@@ -66,6 +72,8 @@
                     	Chạy sản phẩm
                 	</div>
       			</div>
+                </div>
+                <div class="col-lg-12">
                 <div class="panel panel-default">
         			<div class="panel-heading" id="right-panel-heading">
                     	<span class="glyphicon glyphicon-bookmark">&nbsp;</span>THỐNG KÊ
@@ -76,12 +84,14 @@
                         <p><span class="glyphicon glyphicon-signal">&nbsp;</span>Tổng số sản phẩm: 20</p>
                 	</div>
       			</div>
+                </div>
+                </div>
             </div>
         </div>
-        <div class="col-lg-12 container" id="hr">
+        <div class="col-lg-12" id="hr">
         	<hr id="hrstyle" />
         </div>
-		<div class="col-lg-12">
+		<div class="col-lg-12" id="newAll">
         	<div class="col-lg-4">
             	<div class="panel panel-heading"><span class="glyphicon glyphicon-stats">&nbsp;</span>Tin tức sản phẩm</div>
                 <div class="row">
