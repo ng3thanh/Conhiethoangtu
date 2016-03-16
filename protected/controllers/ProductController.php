@@ -32,4 +32,6 @@ class ProductController extends Controller
 		$data = Product::getDetailProduct($id);
 		$this->render("detail", array('data' => $data));
 	}
+	
+	
 }

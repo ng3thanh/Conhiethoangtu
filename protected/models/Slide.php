@@ -24,4 +24,12 @@ class Slide extends SlideBase
 	{
 		return parent::model($className);
 	}
+	
+	static function getSlide(){
+		$criteria = new CDbCriteria;
+		$criteria->condition = "status = 2";
+		$criteria->order = "slide_ordinal ASC";
+		$data = Slide::model()->findAll($criteria);
+		return $data;
+	}
 }

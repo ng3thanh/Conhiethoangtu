@@ -62,4 +62,12 @@ class Product extends ProductBase
 		$data = Product::model()->findByPK($id);
 		return $data;
 	}
+	
+	public function searchByKey($searchkey){
+		$criteria = new CDbCriteria;
+		$criteria->select = "*";
+		$criteria->condition = "pro_name LIKE '%$searchkey%'";
+		$data = Product::model()->findAll($criteria);
+		return $data;
+	}	
 }

@@ -13,7 +13,7 @@
     </div>
     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="<?php echo Yii::app()->request->baseUrl; ?>"><span class="glyphicon glyphicon-home">&nbsp;</span>Trang chủ</a></li>
+        <li class=""><a href="<?php echo Yii::app()->request->baseUrl; ?>"><span class="glyphicon glyphicon-home">&nbsp;</span>Trang chủ</a></li>
         <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/about"><span class="glyphicon glyphicon-info-sign">&nbsp;</span>Giới thiệu</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -34,13 +34,13 @@
             
           </ul>
         </li>
-        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/guide">
+        <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/news/listNews/1">
         	<span class="glyphicon glyphicon-book">&nbsp;</span>Hướng dẫn
         </a></li>
         <li><a href="<?php echo Yii::app()->request->baseUrl; ?>/site/contact">
         	<span class="glyphicon glyphicon-link">&nbsp;</span>Liên hệ
         </a></li>
-        <li><a href="giohang.php"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>Đặt hàng </a></li>
+        <li><a href="#" data-toggle="modal" data-target="#myModal" id="menu-Cart"><span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>Đặt hàng </a></li>
         <li>
         	<?php if(Yii::app()->user->isGuest){ ?>
         		<a href="<?php echo Yii::app()->request->baseUrl; ?>/site/login">
@@ -56,3 +56,26 @@
     </div>
   </div>
 </nav>
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">
+        	<span class="glyphicon glyphicon-fire">&nbsp;</span>Thông tin đặt hàng sản phẩm
+        </h4>
+      </div>
+      <div class="modal-body" id="modal-body">
+      	
+		<p id="mode-body-notice">Mọi sản phẩm và dịch vụ quý khách yêu cầu, vui lòng liên hệ qua số điện thoại 0904.301.325.
+        Hoặc gửi mail về địa chỉ: <a href="mailto:hoangdinhluanlohoi@gmail.com" target="_top">hoangdinhluanlohoi@gmail.com</a>.</p>
+        <p><center><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/hrTag.png" width="50%" /></center></p>
+        <p id="thank-you">Xin cảm ơn quý khách!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" id="buttonModal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

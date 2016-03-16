@@ -3,26 +3,20 @@
 	<ol class="carousel-indicators">
 		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 		<li data-target="#myCarousel" data-slide-to="1"></li>
+    	<li data-target="#myCarousel" data-slide-to="2"></li>
+    	<li data-target="#myCarousel" data-slide-to="3"></li>
 	</ol>
 
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/image-test-2.png" alt="Image">
-			<div class="carousel-caption">
-				<h3>Sell $</h3>
-				<p>Money Money.</p>
-			</div>      
+			<img src="<?php echo Yii::app()->request->baseUrl; ?>/uploads/banner/slide1.jpg" alt="Cơ nhiệt Hoàng Tú">     
 		</div>
-
-  		<div class="item">
-			<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/image-test-1.png" alt="Image">
-				<div class="carousel-caption">
-					<h3>More Sell $</h3>
-					<p>Lorem ipsum...</p>
-				</div>      
+        <?php foreach($data as $row){ ?>
+  			<div class="item">
+				<img src="<?php echo Yii::app()->request->baseUrl.$row->slide_image; ?>" alt="Cơ nhiệt Hoàng Tú">      
 			</div>
-		</div>
+        <?php } ?>
 
 		<!-- Left and right controls -->
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

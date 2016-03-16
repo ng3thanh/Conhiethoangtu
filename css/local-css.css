@@ -112,6 +112,18 @@
 #rightInfo{
 	float:left;	
 }
+#right-li-menu{
+	list-style:none;
+	margin-bottom:5px;	
+}
+#right-li-menu a{
+	text-decoration:none;
+	color:#373737;	
+}
+
+#right-li-menu a:hover{
+	color:#feaa34;
+}
 /* Search form */
 
 #search-box{
@@ -189,7 +201,10 @@
 	color:#FFAC59;
 	text-decoration:none;
 }
-
+#tag-a-new-topic{
+	text-decoration:none;
+	color:#feaa34;	
+}
 #continueRead:hover, #continueRead:active{
 	color:#999;
 	text-decoration:none;
@@ -482,4 +497,28 @@
 .light_orange{
 	
 	background-color:#E0E0E0;	
+}
+
+#modal-body a{
+	color:#feaa34;
+}
+
+#mode-body-notice{
+	text-align:center;	
+}
+#thank-you{
+	text-align:center;
+	color:#feaa34;
+}
+#menu-Cart{
+	outline:none;	
+}
+
+#mail-to{
+	text-decoration:none;
+	color:#373737;	
+}
+
+#mail-to:hover{
+	color:#feaa34;
 }

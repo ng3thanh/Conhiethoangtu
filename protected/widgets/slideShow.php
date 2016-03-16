@@ -7,7 +7,7 @@ class slideShow extends CWidget {
 	}
 	
 	public function run(){
-		$data = 'abc';
+		$data = Slide::getSlide();
 		$this->render("slideShow", array('data' => $data));
 	}
 }

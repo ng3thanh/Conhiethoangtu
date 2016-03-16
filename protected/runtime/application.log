@@ -7729,3 +7729,1875 @@ REQUEST_URI=/AllGitHub/conhiethoangtu/site/about
 in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\site\about.php (7)
 in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (112)
 in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/15 03:06:34 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 04:23:12 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listProduct')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/listPro...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/listProduct/giohang.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/15 04:34:02 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/about
+---
+2016/03/15 04:36:52 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detail')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('product/detail/...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/product/detail/giohang.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/detail/2
+---
+2016/03/15 04:41:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/about
+---
+2016/03/15 05:22:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "chitiettintuc.php". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('chitiettintuc.p...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/chitiettintuc.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 08:39:30 [error] [exception.CException] CException: Alias "application.widgets" is invalid. Make sure it points to an existing PHP file and the file is readable. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\YiiBase.php:323
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWidgetFactory.php(146): YiiBase::import('application.wid...', true)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.wid...', Array)
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(180): CBaseController->createWidget('application.wid...', Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): CBaseController->widget('application.wid...')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/site/about
+---
+2016/03/15 08:52:12 [error] [php] Trying to get property of non-object (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:2)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): leftNews->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (2)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 08:58:54 [error] [php] Attempt to assign property of non-object (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:2)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): leftNews->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (2)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 08:59:05 [error] [php] Attempt to assign property of non-object (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:2)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): leftNews->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (2)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:01:29 [error] [php] Trying to get property of non-object (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:2)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): leftNews->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (2)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:01:35 [error] [php] Trying to get property of non-object (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:2)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): leftNews->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (2)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:03:25 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newcategory/view". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newcategory/vie...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newcategory/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:04:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newcategory/view". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newcategory/vie...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newcategory/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:04:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newcategory/view". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newcategory/vie...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newcategory/3
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:22:22 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newCategory/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newCategory/lis...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newCategory/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:41:55 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT * FROM `tbl_news` `t` ORDER BY id DESC LIMIT 2.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php (38)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:41:55 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'. The SQL statement executed was: SELECT * FROM `tbl_news` `t` ORDER BY id DESC LIMIT 2 in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php(38): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): News::getNewsInHomepage()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): CBaseController->widget('application.wid...')
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:44:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'new_category_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_news` `t` WHERE new_category_id=1 ORDER BY news_id DESC LIMIT 2.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php (39)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:44:03 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'new_category_id' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_news` `t` WHERE new_category_id=1 ORDER BY news_id DESC LIMIT 2 in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php(39): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(11): News::getNewsInHomepage()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): CBaseController->widget('application.wid...')
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:49:14 [error] [php] date() expects parameter 2 to be integer, string given (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php:17)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): leftNews->renderInternal()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): leftNews->renderFile()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php(12): leftNews->render()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): leftNews->run()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\leftNews.php (17)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 09:55:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "chitiettintuc.php". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('chitiettintuc.p...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/chitiettintuc.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 09:55:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "chitiettintuc.php". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('chitiettintuc.p...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/chitiettintuc.php
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:12 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:17 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:21 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:27 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newCategory/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newCategory/lis...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newCategory/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:32 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:00:41 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/
+---
+2016/03/15 10:04:34 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/8
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:04:38 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/4
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:04:42 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/5
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:04:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newCategory/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newCategory/lis...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newCategory/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:12:48 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "newCategory/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('newCategory/lis...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/newCategory/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:13:51 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 10:13:54 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 11:35:55 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/8
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 11:35:58 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:04:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/15 13:04:52 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:05:15 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "news/listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:07:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('listNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:14:18 [error] [php] Missing argument 1 for News::getNewsInHomepage(), called in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php on line 11 and defined (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php:34)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php (34)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 13:14:19 [error] [php] Missing argument 1 for News::getNewsInHomepage(), called in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php on line 11 and defined (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php:34)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(94): SiteController->widget()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\News.php (34)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\leftNews.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (94)
+2016/03/15 13:15:21 [error] [exception.Error] Error: Call to undefined method News::getNewsInHomepage() in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\centerNews.php:11
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): centerNews->run()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(97): CBaseController->widget('application.wid...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/15 13:17:10 [error] [exception.CException] CException: NewsController cannot find the requested view "listNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:878
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('listNews', Array, true)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(12): CController->render('listNews', Array)
+#2 [internal function]: NewsController->actionListNews('1')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:18:47 [error] [exception.CException] CException: Property "News.news_category_topic" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('news_category_t...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\listNews.php(4): CActiveRecord->__get('news_category_t...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('listNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(12): CController->render('listNews', Array)
+#7 [internal function]: NewsController->actionListNews('1')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/2
+---
+2016/03/15 13:19:41 [error] [php] Undefined variable: data2 (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\listNews.php:8)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): NewsController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): NewsController->renderPartial()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(12): NewsController->render()
+#3 unknown(0): NewsController->actionListNews()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): NewsController->runAction()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): NewsController->run()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\listNews.php (8)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/15 13:24:34 [error] [php] Undefined variable: data2 (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\listNews.php:8)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): NewsController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): NewsController->renderPartial()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(13): NewsController->render()
+#3 unknown(0): NewsController->actionListNews()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): NewsController->runAction()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): NewsController->runActionWithFilters()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): NewsController->run()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\listNews.php (8)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php (13)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/15 13:27:31 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:28:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "guide". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('guide')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('guide')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('site/guide')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/site/guide
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/15 13:29:43 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/5
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/3
+---
+2016/03/16 02:07:17 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/7
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:07:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/7
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:08:06 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/7
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:10:37 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "detailNews". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('detailNews')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews
+---
+2016/03/16 02:21:10 [error] [exception.CException] CException: Property "News.pro_name" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pro_name')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\detailNews.php(2): CActiveRecord->__get('pro_name')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('detailNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(18): CController->render('detailNews', Array)
+#7 [internal function]: NewsController->actionDetailNews('2')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:22:13 [error] [exception.CException] CException: Property "News.pro_name" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pro_name')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\detailNews.php(2): CActiveRecord->__get('pro_name')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('detailNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(18): CController->render('detailNews', Array)
+#7 [internal function]: NewsController->actionDetailNews('2')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:22:39 [error] [exception.CException] CException: Property "News.pro_name" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pro_name')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\detailNews.php(7): CActiveRecord->__get('pro_name')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('detailNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(18): CController->render('detailNews', Array)
+#7 [internal function]: NewsController->actionDetailNews('2')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 02:22:40 [error] [exception.CException] CException: Property "News.pro_name" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pro_name')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\detailNews.php(7): CActiveRecord->__get('pro_name')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('detailNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(18): CController->render('detailNews', Array)
+#7 [internal function]: NewsController->actionDetailNews('2')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 03:09:28 [error] [exception.CException] CException: Property "News.new_tittle" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(145): CComponent->__get('new_tittle')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\news\detailNews.php(2): CActiveRecord->__get('new_tittle')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(869): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(782): CController->renderPartial('detailNews', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(18): CController->render('detailNews', Array)
+#7 [internal function]: NewsController->actionDetailNews('2')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('detailNews')
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/detailNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/detailNews/2
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/news/listNews/1
+---
+2016/03/16 03:39:25 [error] [exception.CException] CException: CHttpRequest and its behaviors do not have a method or closure named "baseUrl". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(36): CComponent->__call('baseUrl', Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/?
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?
+---
+2016/03/16 03:39:49 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/index.ph...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/index.php?
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?
+---
+2016/03/16 03:40:19 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/index.ph...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/index.php?
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?
+---
+2016/03/16 03:40:24 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "listSearch". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:483
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(270): CController->missingAction('listSearch')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?
+---
+2016/03/16 03:53:46 [error] [exception.CException] CException: KeywordSearchComponent cannot find the view "keywordSearch". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php:246
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\components\KeywordSearchComponent.php(8): CWidget->render('keywordSearch')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\zii\widgets\CPortlet.php(97): KeywordSearchComponent->renderContent()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): CPortlet->run()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(48): CBaseController->widget('KeywordSearchCo...')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(13): CController->render('listNews', Array)
+#8 [internal function]: NewsController->actionListNews('1')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 03:54:22 [error] [exception.CException] CException: Alias "application.widgets.KeywordSearchComponent" is invalid. Make sure it points to an existing PHP file and the file is readable. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\YiiBase.php:323
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWidgetFactory.php(146): YiiBase::import('application.wid...', true)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(NewsController), 'application.wid...', Array)
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(180): CBaseController->createWidget('application.wid...', Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(48): CBaseController->widget('application.wid...')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(13): CController->render('listNews', Array)
+#8 [internal function]: NewsController->actionListNews('1')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 03:55:06 [error] [exception.CException] CException: Property "NewsController.currentSearchValue" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\keywordSearch.php(4): CComponent->__get('currentSearchVa...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(130): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', NULL, false)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('D:\\Xampp\\htdocs...', NULL, false)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\KeywordSearchComponent.php(8): CWidget->render('keywordSearch')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\zii\widgets\CPortlet.php(97): KeywordSearchComponent->renderContent()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): CPortlet->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(48): CBaseController->widget('application.wid...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\NewsController.php(13): CController->render('listNews', Array)
+#12 [internal function]: NewsController->actionListNews('1')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(NewsController), Array)
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(NewsController), Object(ReflectionMethod), Array)
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listNews')
+#19 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('news/listNews')
+#20 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#21 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/news/listNews/1
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 03:55:09 [error] [exception.CException] CException: Property "SiteController.currentSearchValue" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\keywordSearch.php(4): CComponent->__get('currentSearchVa...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(130): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', NULL, false)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('D:\\Xampp\\htdocs...', NULL, false)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\KeywordSearchComponent.php(8): CWidget->render('keywordSearch')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\zii\widgets\CPortlet.php(97): KeywordSearchComponent->renderContent()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): CPortlet->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(48): CBaseController->widget('application.wid...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+---
+2016/03/16 03:55:12 [error] [exception.CException] CException: Property "SiteController.currentSearchValue" is not defined. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CComponent.php:130
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\views\keywordSearch.php(4): CComponent->__get('currentSearchVa...')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(130): require('D:\\Xampp\\htdocs...')
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', NULL, false)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CWidget.php(244): CBaseController->renderFile('D:\\Xampp\\htdocs...', NULL, false)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\widgets\KeywordSearchComponent.php(8): CWidget->render('keywordSearch')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\zii\widgets\CPortlet.php(97): KeywordSearchComponent->renderContent()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(181): CPortlet->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(48): CBaseController->widget('application.wid...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require('D:\\Xampp\\htdocs...')
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): CBaseController->renderInternal('D:\\Xampp\\htdocs...', Array, true)
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): CBaseController->renderFile('D:\\Xampp\\htdocs...', Array, true)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): CController->render('index', Array)
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('')
+#17 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#18 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#19 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+---
+2016/03/16 04:29:50 [error] [php] Undefined variable: form (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:38)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (38)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:29:51 [error] [php] Undefined variable: form (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:38)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (38)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:29:51 [error] [php] Undefined variable: form (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:38)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (38)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:29:52 [error] [php] Undefined variable: form (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:38)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (38)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:30:41 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:30:52 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:31:00 [error] [php] strpos() expects parameter 1 to be string, array given (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\helpers\CHtml.php:2677)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\helpers\CHtml.php(1552): resolveNameID()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\widgets\CActiveForm.php(808): activeSearchField()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php(45): CActiveForm->searchField()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(126): require()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:31:40 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:31:41 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:31:41 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:31:41 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:32:32 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:32:32 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:32:33 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:32:33 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:32:33 [error] [php] Undefined variable: model (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php:45)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(784): SiteController->renderFile()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php(33): SiteController->render()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SiteController->runAction()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SiteController->run()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\views\layouts\main.php (45)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SiteController.php (33)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:33:17 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 04:41:48 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 04:42:14 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php:336
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 04:51:54 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%ffffffffff%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %ffffffffff%.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:51:54 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%ffffffffff%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %ffffffffff% in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('ffffffffff')
+#5 [internal function]: SearchController::actionListSearch('ffffffffff')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=ffffffffff
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:52:17 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ffffffffff' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE ffffffffff.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:52:17 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ffffffffff' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE ffffffffff in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('ffffffffff')
+#5 [internal function]: SearchController::actionListSearch('ffffffffff')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=ffffffffff
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:53:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%ffffffffff%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %ffffffffff%.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:53:00 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%ffffffffff%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %ffffffffff% in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('ffffffffff')
+#5 [internal function]: SearchController::actionListSearch('ffffffffff')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=ffffffffff
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:53:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%sadasd%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE  %sadasd% .
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:53:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%sadasd%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE  %sadasd%  in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:54:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:32 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:54:34 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:34 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:54:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:35 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:54:43 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:43 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:54:45 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:45 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd
+---
+2016/03/16 04:54:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasdádasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasdádasd.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:54:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sadasdádasd' in 'where clause'. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE sadasdádasd in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd\xC3\xA1dasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd\xC3\xA1dasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd%C3%A1dasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:31 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%sadasdádasd%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %sadasdádasd%.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:31 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%sadasdádasd%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %sadasdádasd% in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('sadasd\xC3\xA1dasd')
+#5 [internal function]: SearchController::actionListSearch('sadasd\xC3\xA1dasd')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=sadasd%C3%A1dasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:44 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Test thử%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %Test thử%.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:44 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Test thử%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %Test thử% in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:49 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:49 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:55:51 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:55:51 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'thử' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE Test thử in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:56:36 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Test thử%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %Test thử%.
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php (70)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (12)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:56:36 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%Test thử%' at line 1. The SQL statement executed was: SELECT * FROM `tbl_product` `t` WHERE pro_name LIKE %Test thử% in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php:543
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\models\Product.php(70): CActiveRecord->findAll(Object(CDbCriteria))
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php(12): Product::searchByKey('Test th\xE1\xBB\xAD')
+#5 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#12 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#13 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#14 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:56:51 [error] [exception.Error] Error: Using $this when not in object context in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php:13
+Stack trace:
+#0 [internal function]: SearchController::actionListSearch('Test th\xE1\xBB\xAD')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=Test+th%E1%BB%AD
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:57:11 [error] [exception.Error] Error: Using $this when not in object context in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php:13
+Stack trace:
+#0 [internal function]: SearchController::actionListSearch('\xC4\x91\xC3\xA2sdasd')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=%C4%91%C3%A2sdasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/?keyword=xxxxxxxxxxx
+---
+2016/03/16 04:57:35 [error] [php] Undefined variable: search (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php:11)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SearchController->runAction()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SearchController->run()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=%C4%91%C3%A2sdasd
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:57:41 [error] [php] Undefined variable: search (D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php:11)
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): SearchController->runAction()
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): SearchController->runActionWithFilters()
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): SearchController->run()
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CWebApplication->run()
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=asdasd
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php (11)
+in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php (13)
+2016/03/16 04:58:31 [error] [exception.Error] Error: Using $this when not in object context in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\protected\controllers\SearchController.php:13
+Stack trace:
+#0 [internal function]: SearchController::actionListSearch('\xC3\xA1dasdasd')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(SearchController), Array)
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(SearchController), Object(ReflectionMethod), Array)
+#3 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(282): CController->run('listSearch')
+#7 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('search/listSear...')
+#8 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#9 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/search/listSearch?keyword=%C3%A1dasdasd
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/
+---
+2016/03/16 07:20:20 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "uploads/banner.jpg". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/banner....')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/uploads/banner.jpg
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---
+2016/03/16 07:22:18 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "uploads/banner.jpg". in D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\web\CWebApplication.php(141): CWebApplication->runController('uploads/banner....')
+#1 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\Xampp\htdocs\AllGitHub\conhiethoangtu\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/AllGitHub/conhiethoangtu/uploads/banner.jpg
+HTTP_REFERER=http://localhost/AllGitHub/conhiethoangtu/product/listProduct/1
+---

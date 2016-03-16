@@ -25,9 +25,37 @@ class NewsCategory extends NewsCategoryBase
 		return parent::model($className);
 	}
 	
-	static function getAllNewCate()
+	static function getNewCateNo1()
 	{
-		$data = NewsCategory::model()->findAll();
+		$criteria = new CDbCriteria;
+		$criteria->condition = "news_category_id=1";
+		$data = NewsCategory::model()->findAll($criteria);
 		return $data;
 	}
+	
+	static function getNewCateNo2()
+	{
+		$criteria = new CDbCriteria;
+		$criteria->condition = "news_category_id=2";
+		$data = NewsCategory::model()->findAll($criteria);
+		return $data;
+	}
+	
+	static function getNewCateNo3()
+	{
+		$criteria = new CDbCriteria;
+		$criteria->condition = "news_category_id=3";
+		$data = NewsCategory::model()->findAll($criteria);
+		return $data;
+	}
+	
+	static function getAllNewCate($id)
+	{
+		$criteria = new CDbCriteria;
+		$criteria->condition = "news_category_id=".$id;
+		$data = NewsCategory::model()->findAll($criteria);
+		return $data;
+	}
+	
+	
 }

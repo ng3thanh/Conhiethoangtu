@@ -20,8 +20,7 @@
 			<div class="col-sm-12" id="detailSetup">
 				<a class="btn btn-warning" data-toggle="modal" data-target="#myModal">
 					<span class="glyphicon glyphicon-shopping-cart">&nbsp;</span>Đặt hàng
-				</a>
-                
+				</a>             
 			</div>
 		</div>
 	</div>
@@ -40,12 +39,16 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">Thông tin đặt hàng sản phẩm</h4>
+        <h4 class="modal-title" id="myModalLabel">
+        	<span class="glyphicon glyphicon-fire">&nbsp;</span>Thông tin đặt hàng sản phẩm
+        </h4>
       </div>
-      <div class="modal-body">
-		Mọi sản phẩm và dịch vụ sửa chữa quý khách yêu cầu, vui lòng liên hệ qua số điện thoại 0904.301.325.
-        Hoặc gửi mail về địa chỉ: hoangdinhluanlohoi@gmail.com.
-        Xin cảm ơn quý khách!
+      <div class="modal-body" id="modal-body">
+      	
+		<p id="mode-body-notice">Mọi sản phẩm và dịch vụ quý khách yêu cầu, vui lòng liên hệ qua số điện thoại 0904.301.325.
+        Hoặc gửi mail về địa chỉ: <a href="mailto:hoangdinhluanlohoi@gmail.com" target="_top">hoangdinhluanlohoi@gmail.com</a>.</p>
+        <p><center><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/hrTag.png" width="50%" /></center></p>
+        <p id="thank-you">Xin cảm ơn quý khách!</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal" id="buttonModal">Close</button>

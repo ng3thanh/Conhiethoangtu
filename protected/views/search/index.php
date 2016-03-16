@@ -1,8 +1,8 @@
 <?php
-/* @var $this ShopcartController */
+/* @var $this SearchController */
 
 $this->breadcrumbs=array(
-	'Shopcart',
+	'Search',
 );
 ?>
 <h1><?php echo $this->id . '/' . $this->action->id; ?></h1>
